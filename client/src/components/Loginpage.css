@@ -1,0 +1,22 @@
+.Logincontainer{
+  width:400px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:40px;
+}
+.Loginform{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:10px;
+  background-color:violet;
+  padding:10px;
+  border-radius:10px;
+
+}
+.loginbtn{
+  background-color:aqua;
+  padding:4px 6px;
+  border-radius:10px;
+  cursor:pointer;
+}

@@ -1,0 +1,18 @@
+.bookdetailcontainer{
+  width:60%;
+  box-shadow:20px;
+  margin:auto;
+  border:2px solid orange;
+  border-radius:50%;
+  display:flex;
+  gap:20px;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+  padding-bottom:10px;
+}
+.updatebtn{
+  background-color: aqua;
+  padding:4px 6px;
+  border-radius:10px;
+}

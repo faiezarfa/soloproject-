@@ -1,0 +1,45 @@
+1-backend:
+
+je commence par la création de dossier qui s'appelle server qui contient plusiers fichiers javascript
+comme server.js et controller.js et model.js et routes.js chaqu'un de ces fiers dans un dossier de le meme nom
+puis j'installe cors() pour la connecxion entre backend et front end aprés
+puis j'installe mongosse pour la connexion entra la basse de donneé mongo db et le serveur 
+et j'installe express
+puis dans la fichier server.js j'importe express et j'importe cors 
+puis je faire un constant qui contient le port puis je teste
+pui je passe a la ficher config.js pour faire la connexion avec la basse de donneé a travers mongoose
+aprés jepasse au fichier model pour faire la schema a travers mongoose qui contient
+le titre et le nom d'author et le nombre des pages,et je fait module.exports pour le model car jesuis besoin de l'utuliser dans des autres fichiers
+aprés ca je passe a la fichier controllers cette ficher contient les fonctions(CRUD) create/read/update delete
+ces fonctions sont nécassaires pour ecrire un livre ou trouver un livre ou modiefier ou supprimer un livre
+chaque fonction je la met en module.exports pour je les utulise dans la ficher route
+pui je passe a la derniere fichier qui s'appelle route.js dans cette fichier je met la route ou je veut faire la fonction
+par exemple je me la route puis j'importe la fonction d'aprés la fichier controller.js
+puis je teste tous les fonctionaité avecpostman
+2.front end:
+
+je commence de faire uneapplication s'appelle client puis d'installer axios et react router dom
+puis je commmence a organiser le travailler de faire des views qui contient les compnents et de faire un dossier s'appelle components aussi chaque view
+contien un component au plus ,alors je fait la premiere requete (axios.get) cette requete mepermet de trouver toutes les livres créé
+puis la deuxieme requete qui me permet de cree un livre (axios.post) cette requete peut etre dans un forme cette fonction termine et j'ai
+faire une fonction qui nour permet de terminer la fonction derniere ses les champs sont pas vides
+lorsque je click sur la button dans le forme puis je faire une fonction lorqsue cette fonction termine une autre fonction s'exécute
+automatiquement qui fait le (refresh) automatique pournour permet de lire le livre criéé sans faire (refresh)
+dans chaque livre creé on trouve le titre et auteur et nombre de pages et entrouve aussi un lien (More details) lorque on click sure
+ce lien nous donne des details sur ce livre parmis les details on trouve une button (update) lorsque je clique sur cette button j'éxécute une fonction contient
+une requete(axios.put) cette requete me permet de modifier quelques informations sur ce livreet automatiquemment lorqsue
+cette derniere termineé on retour a la page qui contiens tous les livres creé grace a la hook use navigate,
+ chaque livre créé a une button qui s'appelle delete lorsqueon click sur delete on éxécureune fonction 
+(axios.delete) qui va supprimer ce livre.
+finallement je fait une page login et un navbar qui est existe seulement dans cette page cette page de login contient 
+une button(login) lorsque je clique sur cette button la redirection se fait au pagge qui contient tous les livres,
+maislorsque l'email et le mot de passe sont vides ou un des deux est vide la button ne fonctionne pas
+
+3.style:
+pour chaque component jsx j'étuliise un component css pour le travaille étre organiser
+
+
+
+
+
+
